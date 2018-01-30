@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="131.266" tests="43" errors="0" skipped="37" failures="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="browser" value="Chrome"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="env" value="prod"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="access" value="f427c26e-d504-4cd9-8a18-0a835f67702a"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\manish.chopra\workspace\FinalRunning2U\Copy of 2UCriticalSanity"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MANISH~1.CHO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="OS" value="windows"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.2.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-maven-3.2.5\bin;C:\ant\bin;C:\Program Files\TortoiseSVN\bin;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\manish.chopra\AppData\Local\Android\sdk\tools;C:\Users\manish.chopra\AppData\Local\Android\sdk\platform-tools;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Skype\Phone\;C:\Users\manish.chopra\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="pName" value="gwu-mph"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\manish.chopra"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="password" value="FMoKy6c!"/>
+    <property name="user.name" value="manish.chopra"/>
+    <property name="java.class.path" value="C:\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="username" value="jayitac2u"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_51\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dbrowser=Chrome -DOS=windows -Denv=prod -Dpassword=FMoKy6c! -Dusername=jayitac2u -Daccess=f427c26e-d504-4cd9-8a18-0a835f67702a -DpName=gwu-mph"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.2.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="teacherLogin" classname="testCases.LoginA" time="28.829">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=49.0.2623.87)&#10;  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 20.45 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}&#10;Session ID: 3f70d6b7514943088d267ab8544e5f4f&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginA.teacherLogin(LoginA.java:32)
+</failure>
+  </testcase>
+  <testcase name="createGroup" classname="testCases.LoginA" time="0">
+    <skipped/>
+    <system-out><![CDATA[createGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall" classname="testCases.LoginA" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall" classname="testCases.LoginA" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherPostTextOnTopNewsWall" classname="testCases.LoginA" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherPostTextOnTopNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherPostURLOnStudentsWall" classname="testCases.LoginA" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherPostURLOnStudentsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherPostOnProfileWall" classname="testCases.LoginA" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherPostOnProfileWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherPostOnCourseWall" classname="testCases.LoginA" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherPostOnCourseWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="teacherLogout" classname="testCases.LoginA" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="studentLogin" classname="testCases.LoginB" time="20.443">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=49.0.2623.87)&#10;  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 20.43 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}&#10;Session ID: 3f70d6b7514943088d267ab8544e5f4f&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.43 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginB.studentLogin(LoginB.java:31)
+</failure>
+  </testcase>
+  <testcase name="testStudentPostTextOnTopNewsWall" classname="testCases.LoginB" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentPostTextOnTopNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentVerifyTopNewsWallPostOnRecentNewsWall" classname="testCases.LoginB" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentVerifyTopNewsWallPostOnRecentNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentJoinsTeacherSocialGroup" classname="testCases.LoginB" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentJoinsTeacherSocialGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentCommentOnTeacherCoursePost" classname="testCases.LoginB" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentCommentOnTeacherCoursePost has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentVerifyTopNewsWallPostOnProfileWall" classname="testCases.LoginB" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentVerifyTopNewsWallPostOnProfileWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentPostURLOnTeacherSocialGroup" classname="testCases.LoginB" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentPostURLOnTeacherSocialGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="studentLogout" classname="testCases.LoginB" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teacherLogin" classname="testCases.LoginC" time="20.505">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=49.0.2623.87)&#10;  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 20.49 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}&#10;Session ID: 3f70d6b7514943088d267ab8544e5f4f&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginC.teacherLogin(LoginC.java:34)
+</failure>
+  </testcase>
+  <testcase name="testTeacherShareImageOnTopNewsWall" classname="testCases.LoginC" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherShareImageOnTopNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherCreateLiveSessionthroughMeetingWidget" classname="testCases.LoginC" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherCreateLiveSessionthroughMeetingWidget has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherUploadFilesInCourse" classname="testCases.LoginC" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherUploadFilesInCourse has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherDeleteLiveSessionthroughMeetingWidget" classname="testCases.LoginC" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherDeleteLiveSessionthroughMeetingWidget has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherVerifyFilesInPortfolio" classname="testCases.LoginC" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherVerifyFilesInPortfolio has started
+]]></system-out>
+  </testcase>
+  <testcase name="teacherLogout" classname="testCases.LoginC" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="studentLogin" classname="testCases.LoginD" time="20.515">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=49.0.2623.87)&#10;  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 20.51 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}&#10;Session ID: 3f70d6b7514943088d267ab8544e5f4f&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginD.studentLogin(LoginD.java:34)
+</failure>
+  </testcase>
+  <testcase name="testStudentShareFileOnTopNewsWall" classname="testCases.LoginD" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentShareFileOnTopNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentShareVideoOnTopNewsWall" classname="testCases.LoginD" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentShareVideoOnTopNewsWall has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentCreateLiveSessionthroughMeetingWidget" classname="testCases.LoginD" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentCreateLiveSessionthroughMeetingWidget has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentDeleteLiveSessionthroughMeetingWidget" classname="testCases.LoginD" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentDeleteLiveSessionthroughMeetingWidget has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentVerifyFilesInCourse" classname="testCases.LoginD" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentVerifyFilesInCourse has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentCreateSocialGroup" classname="testCases.LoginD" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentCreateSocialGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentSubmitQuiz" classname="testCases.LoginD" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentSubmitQuiz has started
+]]></system-out>
+  </testcase>
+  <testcase name="studentLogout" classname="testCases.LoginD" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teacherLogin" classname="testCases.LoginE" time="20.481">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=49.0.2623.87)&#10;  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 20.47 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}&#10;Session ID: 3f70d6b7514943088d267ab8544e5f4f&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginE.teacherLogin(LoginE.java:32)
+</failure>
+  </testcase>
+  <testcase name="testTeacherJoinsStudentSocialGroup" classname="testCases.LoginE" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherJoinsStudentSocialGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherDeleteFiles" classname="testCases.LoginE" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherDeleteFiles has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherDeleteSocialGroup" classname="testCases.LoginE" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherDeleteSocialGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="testTeacherLeavesStudentSocialGroup" classname="testCases.LoginE" time="0">
+    <skipped/>
+    <system-out><![CDATA[testTeacherLeavesStudentSocialGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="teacherLogout" classname="testCases.LoginE" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="studentLogin" classname="testCases.LoginF" time="20.493">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}&#10;  (Session info: chrome=49.0.2623.87)&#10;  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 20.48 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}&#10;Session ID: 3f70d6b7514943088d267ab8544e5f4f&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginF.studentLogin(LoginF.java:33)
+</failure>
+  </testcase>
+  <testcase name="testStudentDeleteFileFromMyFilesPage" classname="testCases.LoginF" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentDeleteFileFromMyFilesPage has started
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentDeleteSocialGroup" classname="testCases.LoginF" time="0">
+    <skipped/>
+    <system-out><![CDATA[testStudentDeleteSocialGroup has started
+]]></system-out>
+  </testcase>
+  <testcase name="studentLogout" classname="testCases.LoginF" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

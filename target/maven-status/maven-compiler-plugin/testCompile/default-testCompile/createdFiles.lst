@@ -1,0 +1,17 @@
+pages\LoginPage.class
+testCases\LoginE.class
+pages\HomePage.class
+testCases\LoginC.class
+pages\ContactPage.class
+testCases\LoginD.class
+pages\CoursePage.class
+commomMethods\WallPost.class
+commomMethods\Files.class
+testCases\LoginF.class
+testCases\LoginA.class
+commomMethods\Timetable.class
+pages\SocialGroupPage.class
+utilities\Listeners.class
+setUp\Base.class
+pages\ProfilePage.class
+testCases\LoginB.class

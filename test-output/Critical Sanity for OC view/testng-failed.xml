@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Critical Sanity for OC view]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCases.LoginD">
+        <methods>
+          <include name="testStudentShareFileOnTopNewsWall"/>
+          <include name="testStudentDeleteLiveSessionthroughMeetingWidget"/>
+          <include name="testStudentCreateLiveSessionthroughMeetingWidget"/>
+          <include name="studentLogin"/>
+          <include name="testStudentShareVideoOnTopNewsWall"/>
+          <include name="testStudentVerifyFilesInCourse"/>
+          <include name="testStudentCreateSocialGroup"/>
+          <include name="testStudentSubmitQuiz"/>
+        </methods>
+      </class> <!-- testCases.LoginD -->
+      <class name="testCases.LoginA">
+        <methods>
+          <include name="testTeacherPostTextOnTopNewsWall"/>
+          <include name="testTeacherPostOnProfileWall"/>
+          <include name="createGroup"/>
+          <include name="testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall"/>
+          <include name="testTeacherPostOnCourseWall"/>
+          <include name="teacherLogin"/>
+          <include name="testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall"/>
+          <include name="testTeacherPostURLOnStudentsWall"/>
+        </methods>
+      </class> <!-- testCases.LoginA -->
+      <class name="testCases.LoginB">
+        <methods>
+          <include name="testStudentVerifyTopNewsWallPostOnProfileWall"/>
+          <include name="testStudentJoinsTeacherSocialGroup"/>
+          <include name="testStudentCommentOnTeacherCoursePost"/>
+          <include name="testStudentPostTextOnTopNewsWall"/>
+          <include name="studentLogin"/>
+          <include name="testStudentVerifyTopNewsWallPostOnRecentNewsWall"/>
+          <include name="testStudentPostURLOnTeacherSocialGroup"/>
+        </methods>
+      </class> <!-- testCases.LoginB -->
+      <class name="testCases.LoginC">
+        <methods>
+          <include name="testTeacherVerifyFilesInPortfolio"/>
+          <include name="testTeacherCreateLiveSessionthroughMeetingWidget"/>
+          <include name="testTeacherShareImageOnTopNewsWall"/>
+          <include name="testTeacherDeleteLiveSessionthroughMeetingWidget"/>
+          <include name="testTeacherUploadFilesInCourse"/>
+          <include name="teacherLogin"/>
+        </methods>
+      </class> <!-- testCases.LoginC -->
+      <class name="testCases.LoginE">
+        <methods>
+          <include name="teacherLogin"/>
+          <include name="testTeacherJoinsStudentSocialGroup"/>
+          <include name="testTeacherLeavesStudentSocialGroup"/>
+          <include name="testTeacherDeleteSocialGroup"/>
+          <include name="testTeacherDeleteFiles"/>
+        </methods>
+      </class> <!-- testCases.LoginE -->
+      <class name="testCases.LoginF">
+        <methods>
+          <include name="testStudentDeleteSocialGroup"/>
+          <include name="testStudentDeleteFileFromMyFilesPage"/>
+          <include name="studentLogin"/>
+        </methods>
+      </class> <!-- testCases.LoginF -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Critical Sanity for OC view] -->

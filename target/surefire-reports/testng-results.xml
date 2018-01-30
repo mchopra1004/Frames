@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="31" failed="0" total="31" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Critical Sanity for OC view" duration-ms="130802" started-at="2017-11-08T05:41:44Z" finished-at="2017-11-08T05:43:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="130802" started-at="2017-11-08T05:41:44Z" finished-at="2017-11-08T05:43:55Z">
+      <class name="testCases.LoginA">
+        <test-method status="FAIL" signature="teacherLogin()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="teacherLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:11:44Z" finished-at="2017-11-08T11:11:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginA.teacherLogin(LoginA.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogin -->
+        <test-method status="SKIP" signature="createGroup()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="createGroup" duration-ms="2" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGroup -->
+        <test-method status="SKIP" signature="testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall" duration-ms="0" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherPostTextOnTopNewsWall()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="testTeacherPostTextOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostTextOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall" duration-ms="0" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherPostURLOnStudentsWall()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="testTeacherPostURLOnStudentsWall" duration-ms="1" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostURLOnStudentsWall -->
+        <test-method status="SKIP" signature="testTeacherPostOnProfileWall()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="testTeacherPostOnProfileWall" duration-ms="0" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostOnProfileWall -->
+        <test-method status="SKIP" signature="teacherLogout()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="teacherLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogout -->
+        <test-method status="SKIP" signature="testTeacherPostOnCourseWall()[pri:0, instance:testCases.LoginA@7cd49a0a]" name="testTeacherPostOnCourseWall" duration-ms="0" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostOnCourseWall -->
+      </class> <!-- testCases.LoginA -->
+      <class name="testCases.LoginC">
+        <test-method status="FAIL" signature="teacherLogin()[pri:0, instance:testCases.LoginC@172d40de]" name="teacherLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginC.teacherLogin(LoginC.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogin -->
+        <test-method status="SKIP" signature="testTeacherShareImageOnTopNewsWall()[pri:0, instance:testCases.LoginC@172d40de]" name="testTeacherShareImageOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:12:53Z" finished-at="2017-11-08T11:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherShareImageOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherCreateLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginC@172d40de]" name="testTeacherCreateLiveSessionthroughMeetingWidget" duration-ms="1" started-at="2017-11-08T11:12:53Z" finished-at="2017-11-08T11:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherCreateLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testTeacherUploadFilesInCourse()[pri:0, instance:testCases.LoginC@172d40de]" name="testTeacherUploadFilesInCourse" duration-ms="1" started-at="2017-11-08T11:12:53Z" finished-at="2017-11-08T11:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherUploadFilesInCourse -->
+        <test-method status="SKIP" signature="testTeacherDeleteLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginC@172d40de]" name="testTeacherDeleteLiveSessionthroughMeetingWidget" duration-ms="1" started-at="2017-11-08T11:12:53Z" finished-at="2017-11-08T11:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherDeleteLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testTeacherVerifyFilesInPortfolio()[pri:0, instance:testCases.LoginC@172d40de]" name="testTeacherVerifyFilesInPortfolio" duration-ms="0" started-at="2017-11-08T11:12:53Z" finished-at="2017-11-08T11:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherVerifyFilesInPortfolio -->
+        <test-method status="SKIP" signature="teacherLogout()[pri:0, instance:testCases.LoginC@172d40de]" name="teacherLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:12:53Z" finished-at="2017-11-08T11:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogout -->
+      </class> <!-- testCases.LoginC -->
+      <class name="testCases.LoginB">
+        <test-method status="FAIL" signature="studentLogin()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="studentLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:12:12Z" finished-at="2017-11-08T11:12:12Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.43 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.43 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginB.studentLogin(LoginB.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogin -->
+        <test-method status="SKIP" signature="testStudentPostTextOnTopNewsWall()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="testStudentPostTextOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentPostTextOnTopNewsWall -->
+        <test-method status="SKIP" signature="testStudentVerifyTopNewsWallPostOnRecentNewsWall()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="testStudentVerifyTopNewsWallPostOnRecentNewsWall" duration-ms="1" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentVerifyTopNewsWallPostOnRecentNewsWall -->
+        <test-method status="SKIP" signature="testStudentJoinsTeacherSocialGroup()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="testStudentJoinsTeacherSocialGroup" duration-ms="1" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentJoinsTeacherSocialGroup -->
+        <test-method status="SKIP" signature="testStudentCommentOnTeacherCoursePost()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="testStudentCommentOnTeacherCoursePost" duration-ms="1" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentCommentOnTeacherCoursePost -->
+        <test-method status="SKIP" signature="testStudentVerifyTopNewsWallPostOnProfileWall()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="testStudentVerifyTopNewsWallPostOnProfileWall" duration-ms="1" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentVerifyTopNewsWallPostOnProfileWall -->
+        <test-method status="SKIP" signature="testStudentPostURLOnTeacherSocialGroup()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="testStudentPostURLOnTeacherSocialGroup" duration-ms="1" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentPostURLOnTeacherSocialGroup -->
+        <test-method status="SKIP" signature="studentLogout()[pri:0, instance:testCases.LoginB@7e1c8e60]" name="studentLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:12:33Z" finished-at="2017-11-08T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogout -->
+      </class> <!-- testCases.LoginB -->
+      <class name="testCases.LoginE">
+        <test-method status="FAIL" signature="teacherLogin()[pri:0, instance:testCases.LoginE@3d205adc]" name="teacherLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginE.teacherLogin(LoginE.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogin -->
+        <test-method status="SKIP" signature="testTeacherJoinsStudentSocialGroup()[pri:0, instance:testCases.LoginE@3d205adc]" name="testTeacherJoinsStudentSocialGroup" duration-ms="1" started-at="2017-11-08T11:13:34Z" finished-at="2017-11-08T11:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherJoinsStudentSocialGroup -->
+        <test-method status="SKIP" signature="testTeacherDeleteFiles()[pri:0, instance:testCases.LoginE@3d205adc]" name="testTeacherDeleteFiles" duration-ms="1" started-at="2017-11-08T11:13:34Z" finished-at="2017-11-08T11:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherDeleteFiles -->
+        <test-method status="SKIP" signature="testTeacherDeleteSocialGroup()[pri:0, instance:testCases.LoginE@3d205adc]" name="testTeacherDeleteSocialGroup" duration-ms="1" started-at="2017-11-08T11:13:34Z" finished-at="2017-11-08T11:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherDeleteSocialGroup -->
+        <test-method status="SKIP" signature="testTeacherLeavesStudentSocialGroup()[pri:0, instance:testCases.LoginE@3d205adc]" name="testTeacherLeavesStudentSocialGroup" duration-ms="1" started-at="2017-11-08T11:13:34Z" finished-at="2017-11-08T11:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherLeavesStudentSocialGroup -->
+        <test-method status="SKIP" signature="teacherLogout()[pri:0, instance:testCases.LoginE@3d205adc]" name="teacherLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:13:34Z" finished-at="2017-11-08T11:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogout -->
+      </class> <!-- testCases.LoginE -->
+      <class name="testCases.LoginD">
+        <test-method status="FAIL" signature="studentLogin()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="studentLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:12:53Z" finished-at="2017-11-08T11:12:53Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginD.studentLogin(LoginD.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogin -->
+        <test-method status="SKIP" signature="testStudentShareFileOnTopNewsWall()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="testStudentShareFileOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentShareFileOnTopNewsWall -->
+        <test-method status="SKIP" signature="testStudentShareVideoOnTopNewsWall()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="testStudentShareVideoOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentShareVideoOnTopNewsWall -->
+        <test-method status="SKIP" signature="testStudentCreateLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="testStudentCreateLiveSessionthroughMeetingWidget" duration-ms="1" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentCreateLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testStudentDeleteLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="testStudentDeleteLiveSessionthroughMeetingWidget" duration-ms="1" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentDeleteLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testStudentVerifyFilesInCourse()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="testStudentVerifyFilesInCourse" duration-ms="1" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentVerifyFilesInCourse -->
+        <test-method status="SKIP" signature="testStudentCreateSocialGroup()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="testStudentCreateSocialGroup" duration-ms="0" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentCreateSocialGroup -->
+        <test-method status="SKIP" signature="testStudentSubmitQuiz()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="testStudentSubmitQuiz" duration-ms="0" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentSubmitQuiz -->
+        <test-method status="SKIP" signature="studentLogout()[pri:0, instance:testCases.LoginD@2eeccf6e]" name="studentLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:13:14Z" finished-at="2017-11-08T11:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogout -->
+      </class> <!-- testCases.LoginD -->
+      <class name="testCases.LoginF">
+        <test-method status="FAIL" signature="studentLogin()[pri:0, instance:testCases.LoginF@1bfdbab5]" name="studentLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:13:34Z" finished-at="2017-11-08T11:13:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='username']"}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'IITC-WS-NB45', ip: '10.6.105.219', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//input[@id='username']}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pages.LoginPage.signIn(LoginPage.java:26)
+	at testCases.LoginF.studentLogin(LoginF.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogin -->
+        <test-method status="SKIP" signature="testStudentDeleteFileFromMyFilesPage()[pri:0, instance:testCases.LoginF@1bfdbab5]" name="testStudentDeleteFileFromMyFilesPage" duration-ms="1" started-at="2017-11-08T11:13:55Z" finished-at="2017-11-08T11:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentDeleteFileFromMyFilesPage -->
+        <test-method status="SKIP" signature="studentLogout()[pri:0, instance:testCases.LoginF@1bfdbab5]" name="studentLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:13:55Z" finished-at="2017-11-08T11:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogout -->
+        <test-method status="SKIP" signature="testStudentDeleteSocialGroup()[pri:0, instance:testCases.LoginF@1bfdbab5]" name="testStudentDeleteSocialGroup" duration-ms="0" started-at="2017-11-08T11:13:55Z" finished-at="2017-11-08T11:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentDeleteSocialGroup -->
+      </class> <!-- testCases.LoginF -->
+    </test> <!-- Test -->
+  </suite> <!-- Critical Sanity for OC view -->
+</testng-results>

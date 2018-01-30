@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">31</td><td class="numi">0</td><td class="numi">0.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">testCases.LoginA</td><td><a href="#m1"><b>teacherLogin</b>  </a></td><td class="numi">1</td><td>1510119289316</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">testCases.LoginB</td><td><a href="#m2"><b>studentLogin</b>  </a></td><td class="numi">1</td><td>1510119289393</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">testCases.LoginC</td><td><a href="#m3"><b>teacherLogin</b>  </a></td><td class="numi">1</td><td>1510119289480</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">testCases.LoginD</td><td><a href="#m4"><b>studentLogin</b>  </a></td><td class="numi">1</td><td>1510119289504</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">testCases.LoginE</td><td><a href="#m5"><b>teacherLogin</b>  </a></td><td class="numi">1</td><td>1510119289668</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">testCases.LoginF</td><td><a href="#m6"><b>studentLogin</b>  </a></td><td class="numi">1</td><td>1510119290123</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginB</td><td><a href="#m7"><b>studentLogout</b>  </a></td><td class="numi">1</td><td>1510119289478</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginD</td><td><a href="#m8"><b>studentLogout</b>  </a></td><td class="numi">1</td><td>1510119289667</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginC</td><td><a href="#m9"><b>teacherLogout</b>  </a></td><td class="numi">1</td><td>1510119289503</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginA</td><td><a href="#m10"><b>teacherLogout</b>  </a></td><td class="numi">1</td><td>1510119289392</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginF</td><td><a href="#m11"><b>studentLogout</b>  </a></td><td class="numi">1</td><td>1510119290214</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginE</td><td><a href="#m12"><b>teacherLogout</b>  </a></td><td class="numi">1</td><td>1510119290122</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="7">testCases.LoginA</td><td><a href="#m13"><b>createGroup</b>  </a></td><td class="numi">1</td><td>1510119289379</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m14"><b>testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289381</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m15"><b>testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289383</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m16"><b>testTeacherPostTextOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289386</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m17"><b>testTeacherPostURLOnStudentsWall</b>  </a></td><td class="numi">1</td><td>1510119289387</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m18"><b>testTeacherPostOnProfileWall</b>  </a></td><td class="numi">1</td><td>1510119289389</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m19"><b>testTeacherPostOnCourseWall</b>  </a></td><td class="numi">1</td><td>1510119289390</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="6">testCases.LoginB</td><td><a href="#m20"><b>testStudentPostTextOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289459</td><td class="numi">3</td></tr><tr class="skippedeven"><td><a href="#m21"><b>testStudentVerifyTopNewsWallPostOnRecentNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289464</td><td class="numi">2</td></tr><tr class="skippedeven"><td><a href="#m22"><b>testStudentJoinsTeacherSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119289467</td><td class="numi">2</td></tr><tr class="skippedeven"><td><a href="#m23"><b>testStudentCommentOnTeacherCoursePost</b>  </a></td><td class="numi">1</td><td>1510119289470</td><td class="numi">2</td></tr><tr class="skippedeven"><td><a href="#m24"><b>testStudentVerifyTopNewsWallPostOnProfileWall</b>  </a></td><td class="numi">1</td><td>1510119289473</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m25"><b>testStudentPostURLOnTeacherSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119289476</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="5">testCases.LoginC</td><td><a href="#m26"><b>testTeacherShareImageOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289483</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m27"><b>testTeacherCreateLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119289486</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m28"><b>testTeacherUploadFilesInCourse</b>  </a></td><td class="numi">1</td><td>1510119289490</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m29"><b>testTeacherDeleteLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119289494</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m30"><b>testTeacherVerifyFilesInPortfolio</b>  </a></td><td class="numi">1</td><td>1510119289499</td><td class="numi">2</td></tr>
+<tr class="skippedeven"><td rowspan="7">testCases.LoginD</td><td><a href="#m31"><b>testStudentShareFileOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289505</td><td class="numi">149</td></tr><tr class="skippedeven"><td><a href="#m32"><b>testStudentShareVideoOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119289655</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m33"><b>testStudentCreateLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119289657</td><td class="numi">2</td></tr><tr class="skippedeven"><td><a href="#m34"><b>testStudentDeleteLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119289660</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m35"><b>testStudentVerifyFilesInCourse</b>  </a></td><td class="numi">1</td><td>1510119289662</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m36"><b>testStudentCreateSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119289664</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m37"><b>testStudentSubmitQuiz</b>  </a></td><td class="numi">1</td><td>1510119289666</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="4">testCases.LoginE</td><td><a href="#m38"><b>testTeacherJoinsStudentSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119290116</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m39"><b>testTeacherDeleteFiles</b>  </a></td><td class="numi">1</td><td>1510119290118</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m40"><b>testTeacherDeleteSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119290120</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m41"><b>testTeacherLeavesStudentSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119290121</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="2">testCases.LoginF</td><td><a href="#m42"><b>testStudentDeleteFileFromMyFilesPage</b>  </a></td><td class="numi">1</td><td>1510119290125</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m43"><b>testStudentDeleteSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119290213</td><td class="numi">0</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">testCases.LoginD:studentLogin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pages.LoginPage.signIn(LoginPage.java:19)
+<br/>at testCases.LoginD.studentLogin(LoginD.java:34)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testCases.LoginF:studentLogin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pages.LoginPage.signIn(LoginPage.java:19)
+<br/>at testCases.LoginF.studentLogin(LoginF.java:33)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testCases.LoginE:teacherLogin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pages.LoginPage.signIn(LoginPage.java:19)
+<br/>at testCases.LoginE.teacherLogin(LoginE.java:32)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testCases.LoginB:studentLogin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pages.LoginPage.signIn(LoginPage.java:19)
+<br/>at testCases.LoginB.studentLogin(LoginB.java:31)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testCases.LoginA:teacherLogin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+setUp.Base.invoke(Base.java:55)
+<br/>at testCases.LoginA.teacherLogin(LoginA.java:31)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testCases.LoginC:teacherLogin</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pages.LoginPage.signIn(LoginPage.java:19)
+<br/>at testCases.LoginC.teacherLogin(LoginC.java:34)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testCases.LoginB:studentLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testCases.LoginD:studentLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testCases.LoginC:teacherLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testCases.LoginA:teacherLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">testCases.LoginF:studentLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">testCases.LoginE:teacherLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">testCases.LoginD:testStudentShareFileOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">testCases.LoginA:testTeacherPostOnCourseWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">testCases.LoginB:testStudentVerifyTopNewsWallPostOnProfileWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">testCases.LoginA:createGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">testCases.LoginE:testTeacherDeleteFiles</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">testCases.LoginC:testTeacherVerifyFilesInPortfolio</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">testCases.LoginB:testStudentPostURLOnTeacherSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">testCases.LoginD:testStudentCreateSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">testCases.LoginB:testStudentCommentOnTeacherCoursePost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">testCases.LoginC:testTeacherCreateLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">testCases.LoginD:testStudentCreateLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">testCases.LoginD:testStudentDeleteLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">testCases.LoginE:testTeacherLeavesStudentSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">testCases.LoginF:testStudentDeleteFileFromMyFilesPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">testCases.LoginD:testStudentShareVideoOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">testCases.LoginF:testStudentDeleteSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">testCases.LoginB:testStudentPostTextOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">testCases.LoginE:testTeacherJoinsStudentSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">testCases.LoginD:testStudentSubmitQuiz</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">testCases.LoginE:testTeacherDeleteSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">testCases.LoginC:testTeacherUploadFilesInCourse</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">testCases.LoginB:testStudentJoinsTeacherSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">testCases.LoginC:testTeacherShareImageOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">testCases.LoginC:testTeacherDeleteLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">testCases.LoginA:testTeacherPostURLOnStudentsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">testCases.LoginA:testTeacherPostOnProfileWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">testCases.LoginA:testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">testCases.LoginA:testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">testCases.LoginA:testTeacherPostTextOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">testCases.LoginB:testStudentVerifyTopNewsWallPostOnRecentNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">testCases.LoginD:testStudentVerifyFilesInCourse</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

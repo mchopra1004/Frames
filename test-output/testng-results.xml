@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="31" failed="0" total="31" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Critical Sanity for OC view" duration-ms="914" started-at="2017-11-08T05:34:49Z" finished-at="2017-11-08T05:34:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="914" started-at="2017-11-08T05:34:49Z" finished-at="2017-11-08T05:34:50Z">
+      <class name="testCases.LoginA">
+        <test-method status="FAIL" signature="teacherLogin()[pri:0, instance:testCases.LoginA@53b32d7]" name="teacherLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at setUp.Base.invoke(Base.java:55)
+	at testCases.LoginA.teacherLogin(LoginA.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogin -->
+        <test-method status="SKIP" signature="createGroup()[pri:0, instance:testCases.LoginA@53b32d7]" name="createGroup" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGroup -->
+        <test-method status="SKIP" signature="testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall()[pri:0, instance:testCases.LoginA@53b32d7]" name="testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall()[pri:0, instance:testCases.LoginA@53b32d7]" name="testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherPostTextOnTopNewsWall()[pri:0, instance:testCases.LoginA@53b32d7]" name="testTeacherPostTextOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostTextOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherPostURLOnStudentsWall()[pri:0, instance:testCases.LoginA@53b32d7]" name="testTeacherPostURLOnStudentsWall" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostURLOnStudentsWall -->
+        <test-method status="SKIP" signature="testTeacherPostOnProfileWall()[pri:0, instance:testCases.LoginA@53b32d7]" name="testTeacherPostOnProfileWall" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostOnProfileWall -->
+        <test-method status="SKIP" signature="testTeacherPostOnCourseWall()[pri:0, instance:testCases.LoginA@53b32d7]" name="testTeacherPostOnCourseWall" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherPostOnCourseWall -->
+        <test-method status="SKIP" signature="teacherLogout()[pri:0, instance:testCases.LoginA@53b32d7]" name="teacherLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogout -->
+      </class> <!-- testCases.LoginA -->
+      <class name="testCases.LoginB">
+        <test-method status="FAIL" signature="studentLogin()[pri:0, instance:testCases.LoginB@5442a311]" name="studentLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pages.LoginPage.signIn(LoginPage.java:19)
+	at testCases.LoginB.studentLogin(LoginB.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogin -->
+        <test-method status="SKIP" signature="testStudentPostTextOnTopNewsWall()[pri:0, instance:testCases.LoginB@5442a311]" name="testStudentPostTextOnTopNewsWall" duration-ms="3" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentPostTextOnTopNewsWall -->
+        <test-method status="SKIP" signature="testStudentVerifyTopNewsWallPostOnRecentNewsWall()[pri:0, instance:testCases.LoginB@5442a311]" name="testStudentVerifyTopNewsWallPostOnRecentNewsWall" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentVerifyTopNewsWallPostOnRecentNewsWall -->
+        <test-method status="SKIP" signature="testStudentJoinsTeacherSocialGroup()[pri:0, instance:testCases.LoginB@5442a311]" name="testStudentJoinsTeacherSocialGroup" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentJoinsTeacherSocialGroup -->
+        <test-method status="SKIP" signature="testStudentCommentOnTeacherCoursePost()[pri:0, instance:testCases.LoginB@5442a311]" name="testStudentCommentOnTeacherCoursePost" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentCommentOnTeacherCoursePost -->
+        <test-method status="SKIP" signature="testStudentVerifyTopNewsWallPostOnProfileWall()[pri:0, instance:testCases.LoginB@5442a311]" name="testStudentVerifyTopNewsWallPostOnProfileWall" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentVerifyTopNewsWallPostOnProfileWall -->
+        <test-method status="SKIP" signature="testStudentPostURLOnTeacherSocialGroup()[pri:0, instance:testCases.LoginB@5442a311]" name="testStudentPostURLOnTeacherSocialGroup" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentPostURLOnTeacherSocialGroup -->
+        <test-method status="SKIP" signature="studentLogout()[pri:0, instance:testCases.LoginB@5442a311]" name="studentLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogout -->
+      </class> <!-- testCases.LoginB -->
+      <class name="testCases.LoginC">
+        <test-method status="FAIL" signature="teacherLogin()[pri:0, instance:testCases.LoginC@548e7350]" name="teacherLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pages.LoginPage.signIn(LoginPage.java:19)
+	at testCases.LoginC.teacherLogin(LoginC.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogin -->
+        <test-method status="SKIP" signature="testTeacherShareImageOnTopNewsWall()[pri:0, instance:testCases.LoginC@548e7350]" name="testTeacherShareImageOnTopNewsWall" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherShareImageOnTopNewsWall -->
+        <test-method status="SKIP" signature="testTeacherCreateLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginC@548e7350]" name="testTeacherCreateLiveSessionthroughMeetingWidget" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherCreateLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testTeacherUploadFilesInCourse()[pri:0, instance:testCases.LoginC@548e7350]" name="testTeacherUploadFilesInCourse" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherUploadFilesInCourse -->
+        <test-method status="SKIP" signature="testTeacherDeleteLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginC@548e7350]" name="testTeacherDeleteLiveSessionthroughMeetingWidget" duration-ms="3" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherDeleteLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testTeacherVerifyFilesInPortfolio()[pri:0, instance:testCases.LoginC@548e7350]" name="testTeacherVerifyFilesInPortfolio" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherVerifyFilesInPortfolio -->
+        <test-method status="SKIP" signature="teacherLogout()[pri:0, instance:testCases.LoginC@548e7350]" name="teacherLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogout -->
+      </class> <!-- testCases.LoginC -->
+      <class name="testCases.LoginD">
+        <test-method status="FAIL" signature="studentLogin()[pri:0, instance:testCases.LoginD@5c3bd550]" name="studentLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pages.LoginPage.signIn(LoginPage.java:19)
+	at testCases.LoginD.studentLogin(LoginD.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogin -->
+        <test-method status="SKIP" signature="testStudentShareFileOnTopNewsWall()[pri:0, instance:testCases.LoginD@5c3bd550]" name="testStudentShareFileOnTopNewsWall" duration-ms="149" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentShareFileOnTopNewsWall -->
+        <test-method status="SKIP" signature="testStudentShareVideoOnTopNewsWall()[pri:0, instance:testCases.LoginD@5c3bd550]" name="testStudentShareVideoOnTopNewsWall" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentShareVideoOnTopNewsWall -->
+        <test-method status="SKIP" signature="testStudentCreateLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginD@5c3bd550]" name="testStudentCreateLiveSessionthroughMeetingWidget" duration-ms="2" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentCreateLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testStudentDeleteLiveSessionthroughMeetingWidget()[pri:0, instance:testCases.LoginD@5c3bd550]" name="testStudentDeleteLiveSessionthroughMeetingWidget" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentDeleteLiveSessionthroughMeetingWidget -->
+        <test-method status="SKIP" signature="testStudentVerifyFilesInCourse()[pri:0, instance:testCases.LoginD@5c3bd550]" name="testStudentVerifyFilesInCourse" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentVerifyFilesInCourse -->
+        <test-method status="SKIP" signature="testStudentCreateSocialGroup()[pri:0, instance:testCases.LoginD@5c3bd550]" name="testStudentCreateSocialGroup" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentCreateSocialGroup -->
+        <test-method status="SKIP" signature="testStudentSubmitQuiz()[pri:0, instance:testCases.LoginD@5c3bd550]" name="testStudentSubmitQuiz" duration-ms="1" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentSubmitQuiz -->
+        <test-method status="SKIP" signature="studentLogout()[pri:0, instance:testCases.LoginD@5c3bd550]" name="studentLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogout -->
+      </class> <!-- testCases.LoginD -->
+      <class name="testCases.LoginE">
+        <test-method status="FAIL" signature="teacherLogin()[pri:0, instance:testCases.LoginE@1a968a59]" name="teacherLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:49Z" finished-at="2017-11-08T11:04:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pages.LoginPage.signIn(LoginPage.java:19)
+	at testCases.LoginE.teacherLogin(LoginE.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogin -->
+        <test-method status="SKIP" signature="testTeacherJoinsStudentSocialGroup()[pri:0, instance:testCases.LoginE@1a968a59]" name="testTeacherJoinsStudentSocialGroup" duration-ms="1" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherJoinsStudentSocialGroup -->
+        <test-method status="SKIP" signature="testTeacherDeleteFiles()[pri:0, instance:testCases.LoginE@1a968a59]" name="testTeacherDeleteFiles" duration-ms="1" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherDeleteFiles -->
+        <test-method status="SKIP" signature="testTeacherDeleteSocialGroup()[pri:0, instance:testCases.LoginE@1a968a59]" name="testTeacherDeleteSocialGroup" duration-ms="0" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherDeleteSocialGroup -->
+        <test-method status="SKIP" signature="testTeacherLeavesStudentSocialGroup()[pri:0, instance:testCases.LoginE@1a968a59]" name="testTeacherLeavesStudentSocialGroup" duration-ms="1" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeacherLeavesStudentSocialGroup -->
+        <test-method status="SKIP" signature="teacherLogout()[pri:0, instance:testCases.LoginE@1a968a59]" name="teacherLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLogout -->
+      </class> <!-- testCases.LoginE -->
+      <class name="testCases.LoginF">
+        <test-method status="FAIL" signature="studentLogin()[pri:0, instance:testCases.LoginF@4667ae56]" name="studentLogin" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pages.LoginPage.signIn(LoginPage.java:19)
+	at testCases.LoginF.studentLogin(LoginF.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogin -->
+        <test-method status="SKIP" signature="testStudentDeleteFileFromMyFilesPage()[pri:0, instance:testCases.LoginF@4667ae56]" name="testStudentDeleteFileFromMyFilesPage" duration-ms="0" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentDeleteFileFromMyFilesPage -->
+        <test-method status="SKIP" signature="testStudentDeleteSocialGroup()[pri:0, instance:testCases.LoginF@4667ae56]" name="testStudentDeleteSocialGroup" duration-ms="0" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentDeleteSocialGroup -->
+        <test-method status="SKIP" signature="studentLogout()[pri:0, instance:testCases.LoginF@4667ae56]" name="studentLogout" is-config="true" duration-ms="0" started-at="2017-11-08T11:04:50Z" finished-at="2017-11-08T11:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogout -->
+      </class> <!-- testCases.LoginF -->
+    </test> <!-- Test -->
+  </suite> <!-- Critical Sanity for OC view -->
+</testng-results>

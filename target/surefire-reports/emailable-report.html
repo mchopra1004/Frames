@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">31</td><td class="numi">0</td><td class="numi">130.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">testCases.LoginB</td><td><a href="#m1"><b>studentLogin</b>  </a></td><td class="numi">1</td><td>1510119732561</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">testCases.LoginD</td><td><a href="#m2"><b>studentLogin</b>  </a></td><td class="numi">1</td><td>1510119773535</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">testCases.LoginF</td><td><a href="#m3"><b>studentLogin</b>  </a></td><td class="numi">1</td><td>1510119814552</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">testCases.LoginA</td><td><a href="#m4"><b>teacherLogin</b>  </a></td><td class="numi">1</td><td>1510119704253</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">testCases.LoginC</td><td><a href="#m5"><b>teacherLogin</b>  </a></td><td class="numi">1</td><td>1510119753016</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">testCases.LoginE</td><td><a href="#m6"><b>teacherLogin</b>  </a></td><td class="numi">1</td><td>1510119794063</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginC</td><td><a href="#m7"><b>teacherLogout</b>  </a></td><td class="numi">1</td><td>1510119773534</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginA</td><td><a href="#m8"><b>teacherLogout</b>  </a></td><td class="numi">1</td><td>1510119732559</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginE</td><td><a href="#m9"><b>teacherLogout</b>  </a></td><td class="numi">1</td><td>1510119814552</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginD</td><td><a href="#m10"><b>studentLogout</b>  </a></td><td class="numi">1</td><td>1510119794063</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginB</td><td><a href="#m11"><b>studentLogout</b>  </a></td><td class="numi">1</td><td>1510119753015</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginF</td><td><a href="#m12"><b>studentLogout</b>  </a></td><td class="numi">1</td><td>1510119835047</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginA</td><td><a href="#m13"><b>createGroup</b>  </a></td><td class="numi">1</td><td>1510119732552</td><td class="numi">2</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginB</td><td><a href="#m14"><b>testStudentCommentOnTeacherCoursePost</b>  </a></td><td class="numi">1</td><td>1510119753008</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="2">testCases.LoginD</td><td><a href="#m15"><b>testStudentCreateLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119794058</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m16"><b>testStudentCreateSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119794062</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginF</td><td><a href="#m17"><b>testStudentDeleteFileFromMyFilesPage</b>  </a></td><td class="numi">1</td><td>1510119835045</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginD</td><td><a href="#m18"><b>testStudentDeleteLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119794059</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginF</td><td><a href="#m19"><b>testStudentDeleteSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119835047</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="3">testCases.LoginB</td><td><a href="#m20"><b>testStudentJoinsTeacherSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119753006</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m21"><b>testStudentPostTextOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119753002</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m22"><b>testStudentPostURLOnTeacherSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119753013</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="4">testCases.LoginD</td><td><a href="#m23"><b>testStudentShareFileOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119794055</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m24"><b>testStudentShareVideoOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119794057</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m25"><b>testStudentSubmitQuiz</b>  </a></td><td class="numi">1</td><td>1510119794063</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m26"><b>testStudentVerifyFilesInCourse</b>  </a></td><td class="numi">1</td><td>1510119794061</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="2">testCases.LoginB</td><td><a href="#m27"><b>testStudentVerifyTopNewsWallPostOnProfileWall</b>  </a></td><td class="numi">1</td><td>1510119753011</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m28"><b>testStudentVerifyTopNewsWallPostOnRecentNewsWall</b>  </a></td><td class="numi">1</td><td>1510119753004</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginC</td><td><a href="#m29"><b>testTeacherCreateLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119773526</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="1">testCases.LoginE</td><td><a href="#m30"><b>testTeacherDeleteFiles</b>  </a></td><td class="numi">1</td><td>1510119814549</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="1">testCases.LoginC</td><td><a href="#m31"><b>testTeacherDeleteLiveSessionthroughMeetingWidget</b>  </a></td><td class="numi">1</td><td>1510119773531</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="3">testCases.LoginE</td><td><a href="#m32"><b>testTeacherDeleteSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119814550</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m33"><b>testTeacherJoinsStudentSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119814548</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m34"><b>testTeacherLeavesStudentSocialGroup</b>  </a></td><td class="numi">1</td><td>1510119814551</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="6">testCases.LoginA</td><td><a href="#m35"><b>testTeacherPostOnCourseWall</b>  </a></td><td class="numi">1</td><td>1510119732559</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m36"><b>testTeacherPostOnProfileWall</b>  </a></td><td class="numi">1</td><td>1510119732558</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m37"><b>testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119732555</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m38"><b>testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119732556</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m39"><b>testTeacherPostTextOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119732556</td><td class="numi">1</td></tr><tr class="skippedeven"><td><a href="#m40"><b>testTeacherPostURLOnStudentsWall</b>  </a></td><td class="numi">1</td><td>1510119732557</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="3">testCases.LoginC</td><td><a href="#m41"><b>testTeacherShareImageOnTopNewsWall</b>  </a></td><td class="numi">1</td><td>1510119773524</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m42"><b>testTeacherUploadFilesInCourse</b>  </a></td><td class="numi">1</td><td>1510119773528</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m43"><b>testTeacherVerifyFilesInPortfolio</b>  </a></td><td class="numi">1</td><td>1510119773533</td><td class="numi">0</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">testCases.LoginE:teacherLogin</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pages.LoginPage.signIn(LoginPage.java:26)
+<br/>at testCases.LoginE.teacherLogin(LoginE.java:32)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testCases.LoginB:studentLogin</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.43 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pages.LoginPage.signIn(LoginPage.java:26)
+<br/>at testCases.LoginB.studentLogin(LoginB.java:31)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testCases.LoginA:teacherLogin</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pages.LoginPage.signIn(LoginPage.java:26)
+<br/>at testCases.LoginA.teacherLogin(LoginA.java:32)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testCases.LoginD:studentLogin</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pages.LoginPage.signIn(LoginPage.java:26)
+<br/>at testCases.LoginD.studentLogin(LoginD.java:34)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testCases.LoginF:studentLogin</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pages.LoginPage.signIn(LoginPage.java:26)
+<br/>at testCases.LoginF.studentLogin(LoginF.java:33)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testCases.LoginC:teacherLogin</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=49.0.2623.87)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.49 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;IITC-WS-NB45&apos;, ip: &apos;10.6.105.219&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=xpath, value=//input[@id=&apos;username&apos;]}
+Session ID: 3f70d6b7514943088d267ab8544e5f4f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, hasMetadata=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1048_31676, chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=3f70d6b7514943088d267ab8544e5f4f, version=49.0.2623.87, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at pages.LoginPage.signIn(LoginPage.java:26)
+<br/>at testCases.LoginC.teacherLogin(LoginC.java:34)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testCases.LoginC:teacherLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testCases.LoginA:teacherLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testCases.LoginE:teacherLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testCases.LoginD:studentLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">testCases.LoginB:studentLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">testCases.LoginF:studentLogout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">testCases.LoginA:testTeacherPostOnCourseWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">testCases.LoginD:testStudentVerifyFilesInCourse</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">testCases.LoginE:testTeacherJoinsStudentSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">testCases.LoginB:testStudentVerifyTopNewsWallPostOnProfileWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">testCases.LoginA:testTeacherPostTextOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">testCases.LoginF:testStudentDeleteSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">testCases.LoginB:testStudentPostTextOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">testCases.LoginA:testTeacherPostTextOnRecentNewsWallAndVerifyOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">testCases.LoginD:testStudentShareFileOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">testCases.LoginA:testTeacherPostURLOnStudentsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">testCases.LoginE:testTeacherDeleteFiles</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">testCases.LoginC:testTeacherShareImageOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">testCases.LoginD:testStudentShareVideoOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">testCases.LoginC:testTeacherUploadFilesInCourse</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">testCases.LoginC:testTeacherVerifyFilesInPortfolio</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">testCases.LoginA:testTeacherPostOnProfileWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">testCases.LoginD:testStudentSubmitQuiz</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">testCases.LoginB:testStudentJoinsTeacherSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">testCases.LoginB:testStudentVerifyTopNewsWallPostOnRecentNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">testCases.LoginA:testTeacherPostTextOnProfileWallAndVerifyOnTopNewsWall</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">testCases.LoginD:testStudentCreateSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">testCases.LoginB:testStudentCommentOnTeacherCoursePost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">testCases.LoginD:testStudentDeleteLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">testCases.LoginC:testTeacherDeleteLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">testCases.LoginC:testTeacherCreateLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">testCases.LoginE:testTeacherDeleteSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">testCases.LoginA:createGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">testCases.LoginD:testStudentCreateLiveSessionthroughMeetingWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">testCases.LoginE:testTeacherLeavesStudentSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">testCases.LoginF:testStudentDeleteFileFromMyFilesPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">testCases.LoginB:testStudentPostURLOnTeacherSocialGroup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
